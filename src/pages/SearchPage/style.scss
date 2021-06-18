@@ -1,0 +1,16 @@
+.search-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .list-title{
+        color: #f7feff
+    }
+
+    .pagination{
+        max-width: 80%;
+        background-color: #c2c5ff;
+        border-radius: 5px;
+    }
+}

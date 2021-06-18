@@ -1,0 +1,37 @@
+.comics-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #62787a;
+    width: 800px;
+    height: 200px;
+    border-radius: 5px;
+    &:hover {
+        border: 4px outset;
+        border-radius: 5px;
+        border-color: #a3d6ff;
+      }
+
+    .comics-logo {
+        margin: 30px 20px 30px 30px;
+
+        .comics-img {
+            border-radius: 10%
+        }
+    }
+
+    .comics-information {
+        margin: 30px 30px 30px 20px;
+
+        .comics-title {
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+            color: #f7feff;
+        }
+        .comics-description {
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.searchBar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #62787a;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+
+    .input {
+        width: 75%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    .button {
+        background: #20494d;
+        color: #f7feff;
+        border-radius: 5px;
+        border: none;
+        &:hover {
+            cursor: pointer;
+            border: 2px outset;
+            border-radius: 5px;
+            border-color: #a3d6ff;
+          }
+    }
+}
